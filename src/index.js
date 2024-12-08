@@ -77,12 +77,13 @@ function CurrentPage() {
           }
           if (currentTab.getCurrentTab() !== "Home" && e.target.textContent === "Home") {
             showHome();
+          } else if (currentTab.getCurrentTab() !== "Menu" && e.target.textContent === "Menu"){
+            showMenu();
           }
           currentTab.changeTab(e.target.textContent);
         }
       }
     
-      showMenu();
     });
 
 }
