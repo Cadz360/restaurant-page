@@ -1,5 +1,6 @@
 import "./styles.css";
 import showMenu from "./menu";
+import showAbout from "./about";
 
 function CurrentTab() {
   let currentTab = "Home";
@@ -79,6 +80,8 @@ function CurrentPage() {
             showHome();
           } else if (currentTab.getCurrentTab() !== "Menu" && e.target.textContent === "Menu"){
             showMenu();
+          } else if (currentTab.getCurrentTab() !== "About" && e.target.textContent === "About"){
+            showAbout();
           }
           currentTab.changeTab(e.target.textContent);
         }

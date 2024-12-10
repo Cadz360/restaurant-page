@@ -17,7 +17,6 @@ const showMenu = () => {
     createDishItem('Beefed Up Silog', 'Savory beef tapa grilled to smoky goodness, complemented by fluffy garlic rice and a soft, runny egg.',bowlsList)
     createDishItem("Chik'n Sizzle Silog", 'Tender chicken tapa, grilled golden-brown, with a mound of fragrant garlic rice and an egg cooked your way.',bowlsList)
     createDishItem('Bacon-Tapa Fiesta', 'A mash-up of crispy bacon and traditional beef tapa, served with garlic rice and an egg. Ultimate indulgence in every bite!',bowlsList)
-
 }
 
 function createDishItem(itemName, itemInfo, listEl) {
